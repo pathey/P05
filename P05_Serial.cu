@@ -102,11 +102,13 @@ int main(int argc, char *argv[]){
 		
 	}
 	
-	//Print out the array to check that it was initialized and filled correctly
+	/*
+
+ 	//Print out the array to check that it was initialized and filled correctly
 	for (int i = 0; i < len; i++){
 		printf("%f \n", input[i]);
 	}
-	
+	*/
 
 	//Run the serial kernel and output the computation time in ms
 	clock_t t;
